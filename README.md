@@ -1,9 +1,7 @@
 # CineMatch: A Hybrid Content-Based and Collaborative Filtering Movie Recommendation System
 
-**Academic Project by Pavni Pawar (Enrollment: 24B5044)**  
-**Supervisor:** Dr. Chandra Prakash Patidar  
-**Department of Computer Science and Business Systems, Institute of Engineering & Technology, Devi Ahilya Vishwavidyalaya, Indore (M.P.)**  
-**Academic Session:** 2025 – 2026  
+**AI-Powered Movie Discovery and Personalized Streaming Recommendation Platform**  
+*Built with Python, Scikit-learn, Surprise (SVD/KNN), and Streamlit*
 
 ---
 
@@ -78,7 +76,6 @@ cinematch/
 ├── requirements.txt                    # Exact production dependencies
 ├── .env.example                        # Environment variable template for TMDB API key
 ├── .gitignore                          # Standard Python & environment exclusions
-├── VIVA_QUESTIONS.md                   # Comprehensive 25+ viva questions and answers
 └── README.md                           # Complete project documentation
 ```
 
@@ -115,6 +112,3 @@ CineMatch works seamlessly offline using built-in curated posters and dynamic SV
 
 ---
 
-## 🎓 Academic Defense & Viva Preparation
-
-A detailed study guide covering mathematical equations, SGD derivations, cold-start strategies, and 25 viva questions with answers is available in **`VIVA_QUESTIONS.md`**.

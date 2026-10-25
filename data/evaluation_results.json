@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "evaluated_at": "2026-10-24 20:11:05",
+    "total_ratings": 100836,
+    "train_ratings": 80668,
+    "test_ratings": 20168,
+    "evaluation_duration_seconds": 1415.93,
+    "evaluated_users_count": 80,
+    "relevance_threshold": 3.5
+  },
+  "models": {
+    "Collaborative (SVD)": {
+      "rmse": 0.8859,
+      "mae": 0.6789,
+      "precision_5": 0.785,
+      "precision_10": 0.68,
+      "precision_20": 0.5444,
+      "recall_5": 0.4415,
+      "recall_10": 0.6277,
+      "recall_20": 0.7845,
+      "coverage_pct": 6.69,
+      "type": "Collaborative (Matrix Factorization)",
+      "best_for": "Latent taste pattern discovery"
+    },
+    "Collaborative (KNN)": {
+      "rmse": 0.9204,
+      "mae": 0.705,
+      "precision_5": 0.7825,
+      "precision_10": 0.6787,
+      "precision_20": 0.5362,
+      "recall_5": 0.4467,
+      "recall_10": 0.6321,
+      "recall_20": 0.7837,
+      "coverage_pct": 7.48,
+      "type": "Collaborative (Memory-Based KNN)",
+      "best_for": "Interpretable peer similarity"
+    },
+    "Content-Based (TF-IDF)": {
+      "rmse": 1.0391,
+      "mae": 0.8466,
+      "precision_5": 0.6925,
+      "precision_10": 0.6213,
+      "precision_20": 0.4875,
+      "recall_5": 0.3848,
+      "recall_10": 0.6112,
+      "recall_20": 0.7527,
+      "coverage_pct": 8.3,
+      "type": "Content-Based (TF-IDF Cosine)",
+      "best_for": "Cold-start resilience & thematic fidelity"
+    },
+    "CineMatch Hybrid": {
+      "rmse": 0.9032,
+      "mae": 0.709,
+      "precision_5": 0.785,
+      "precision_10": 0.6813,
+      "precision_20": 0.5462,
+      "recall_5": 0.4407,
+      "recall_10": 0.6302,
+      "recall_20": 0.7861,
+      "coverage_pct": 6.71,
+      "type": "Hybrid (Weighted Score + Cold-Start Fallback)",
+      "best_for": "Optimal balance of accuracy, diversity & cold-start"
+    }
+  }
+}

@@ -12,7 +12,7 @@ def main():
     os.chdir(project_dir)
     print("=" * 65)
     print("🎬 CINEMATCH: Hybrid Movie Recommendation Engine")
-    print("   Department of CSBS, IET DAVV Indore | Session 2025-2026")
+    print("   AI-Powered Content-Based & Collaborative Filtering Platform")
     print("=" * 65)
     
     # Check dependencies
